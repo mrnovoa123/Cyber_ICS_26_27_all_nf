@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="es"><head>
 <meta charset="utf-8">
+    <script>
+        // Reemplaza "MiContrasenaSecreta" por la clave que tú quieras
+        var password = prompt("Introduce la contraseña para ver este sitio:");
+        if (password !== "MRN2026") {
+            alert("Acceso denegado.");
+            window.location.href = "https://github.com"; // Redirección
+        }
+    </script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>MP5021 · Incidentes de Ciberseguridad (profesorado)</title>
 <meta name="description" content="Módulo MP5021 Incidentes de Ciberseguridad: laboratorio, teoría detallada por unidad, 26 actividades y tareas entregables, con y sin IA. IES Chan do Monte, 2026/2027.">
